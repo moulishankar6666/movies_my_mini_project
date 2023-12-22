@@ -1,0 +1,19 @@
+.thumbnail {
+  height: 170px;
+  width: 130px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail {
+    height: 220px;
+    width: 170px;
+    border-radius: 14px;
+    margin: 10px;
+  }
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

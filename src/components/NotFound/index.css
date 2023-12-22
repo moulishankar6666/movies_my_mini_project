@@ -1,0 +1,38 @@
+.not-found-route {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+.not-found-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+.not-found-content h1 {
+  font-size: 50px;
+  color: #fff;
+}
+.not-found-content p {
+  text-align: center;
+  color: #fff;
+}
+.not-found-content button {
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.not-found-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}

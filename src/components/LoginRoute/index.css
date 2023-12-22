@@ -1,0 +1,114 @@
+.login-form-bg-container {
+  min-height: 100vh;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 32px;
+}
+@media screen and (min-width: 768px) {
+  .login-form-bg-container {
+    background-image: url('https://res.cloudinary.com/dc2b69ycq/image/upload/v1669698542/Movies%20App/netfilx_bg_vhdeeq.png');
+    background-size: cover;
+    padding-top: 48px;
+  }
+}
+.website-logo-image-container {
+  align-self: flex-start;
+  padding: 20px;
+}
+
+.website-logo {
+  align-self: flex-start;
+  width: 170px;
+}
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 170px;
+  }
+}
+.login-form-container {
+  background-color: transparent;
+  width: 100%;
+  min-height: 60vh;
+  align-self: center;
+  margin-top: 60px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .login-form-container {
+    height: 70vh;
+    width: 400px;
+    padding: 48px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto';
+    background: #0c0b10;
+    opacity: 0.8;
+    outline: 2px solid #fff;
+    margin-bottom: 20px;
+  }
+}
+.login-title {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.label {
+  font-size: 13px;
+  color: #ffffff;
+  align-self: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .label {
+    font-size: 14px;
+  }
+}
+.input-field {
+  height: 40px;
+  width: 100%;
+  border-radius: 2px;
+  margin-bottom: 22px;
+  margin-top: 10px;
+  background: #333333;
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  outline: none;
+  color: #e2e8f0;
+  outline: 1px solid rgb(212, 211, 211);
+}
+
+.login-btn {
+  height: 40px;
+  width: 100%;
+  border-radius: 8px;
+  background: #e50914;
+  color: #ffffff;
+  margin: 10px 0px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.error-msg {
+  font-size: 10px;
+  color: #dc2626;
+  align-self: flex-start;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .error-msg {
+    font-size: 10px;
+  }
+}
